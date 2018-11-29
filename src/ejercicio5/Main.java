@@ -2,8 +2,6 @@ package ejercicio5;
 
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -17,6 +15,7 @@ public class Main {
 		System.out.println("Pulsa intro para parar el tiempo y mostrarlo");
 		sc.nextLine();
 		System.out.println("Tiempo " + crono.stop() + " Segundos");
+		sc.close();
 		
 	}
 
